@@ -1,0 +1,8 @@
+﻿  Source.cpp
+C:\Users\pc\source\repos\Vezeeta system\Vezeeta system\Source.cpp(3,1): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+C:\Users\pc\source\repos\Vezeeta system\Vezeeta system\Source.cpp(3,1): message : '_CRT_SECURE_NO_WARNINGS' previously declared on the command line
+C:\Users\pc\source\repos\Vezeeta system\Vezeeta system\Source.cpp(42,11): warning C4101: 'dwReturn': unreferenced local variable
+  main.cpp
+  Generating Code...
+C:\Users\pc\source\repos\Vezeeta system\Vezeeta system\Source.cpp(687): warning C4715: 'spec_name': not all control paths return a value
+  Vezeeta system.vcxproj -> C:\Users\pc\source\repos\Vezeeta system\x64\Debug\Vezeeta system.exe
