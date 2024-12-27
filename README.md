@@ -1,12 +1,57 @@
-# SP_Project_collage_Project 
-we have a lot of features in our project so we will discuss the main features that made our project unique 
-1- it was divided into 3 files 
-(  main.cpp  .  source.cpp  .   interface.h  )
-2- sound function 
-when we run or exit the Project we hear a sound
-3- pass encryption function
-4- search for doctor by his ( name / specialization / available time)
-5- availability to ( edit / delete / add ) time for any doctor 
-6- availability to cancel a booked appointment for a patient and this appointment will be usable for other patients
-7- 3 text file to save all doctors, patients and appointment details 
-and more features but those are the most unique features
+# Vezzeta
+
+## Overview
+
+**Vezzeta** is a C++ console application designed to streamline the management of medical appointments and doctor-patient interactions. The system offers functionalities such as doctor search, appointment scheduling, and administrative management, all while ensuring data persistence through text files.
+
+## Features
+
+- **Sound Notifications**:
+  - Plays a sound upon launching and exiting the application to enhance user experience.
+
+- **Password Encryption**:
+  - Ensures secure storage of user credentials through encryption mechanisms.
+
+- **Doctor Search**:
+  - Allows users to search for doctors by:
+    - Name
+    - Specialization
+    - Available time slots
+
+- **Appointment Management**:
+  - Enables patients to:
+    - Book appointments with doctors.
+    - Cancel appointments, making the slot available for others.
+
+- **Doctor Schedule Management**:
+  - Provides administrators the ability to:
+    - Add new time slots for doctors.
+    - Edit existing time slots.
+    - Delete time slots as needed.
+
+- **Data Persistence**:
+  - Utilizes three text files to store:
+    - Doctor details
+    - Patient information
+    - Appointment records
+
+## File Structure
+
+The project is organized into three main files:
+
+1. **main.cpp**:
+   - Contains the `main` function and handles the primary flow of the application.
+
+2. **source.cpp**:
+   - Implements the core functionalities and logic of the system.
+
+3. **interface.h**:
+   - Declares the functions and classes used across `main.cpp` and `source.cpp`, facilitating modularity and code organization.
+
+### Project team contributors
+- Abanoub Saweris.
+- Yousef Osama.
+- Ibram Adel.
+- Kenzy Adel.
+- Maria Kiser.
+- Losia Awny.
